@@ -21,6 +21,12 @@ public class Main {
         System.out.println(softPillow.getName());
         System.out.println(bigMace.getName());
 
+        System.out.println(greenOgre.getName());
+        System.out.println(redOgre.getName());
+        System.out.println(slowZombie.getName());
+        System.out.println(fastZombie.getName());
+        System.out.println(spotDog.getName());
+        System.out.println(redDragon.getName());
 
     }
 }

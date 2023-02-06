@@ -8,6 +8,9 @@ public class Enemy {
         this.hp = hp;
         this.damage = damage;
     }
+    public String getName(){
+        return this.name;
+    }
     public boolean is_alive(){
         return (this.hp > 0);
     }
