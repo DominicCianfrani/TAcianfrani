@@ -5,5 +5,6 @@ public enum Method {
     MoveEast,
     MoveWest,
     MoveSouth,
-    MoveNorth
+    MoveNorth,
+    SuperMove
 }
