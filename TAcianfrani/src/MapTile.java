@@ -25,7 +25,6 @@ public class MapTile {
 
         public ArrayList<Action> adjacent_moves() {
             ArrayList<Action> moves = new ArrayList<Action>();
-
             if (x > 0 && World._world[y][x - 1] != null) {
                 moves.add(new MoveNorth());
             }
