@@ -11,16 +11,16 @@ public class MapTile {
 
         public ArrayList<Action> adjacent_moves() {
             ArrayList<Action> moves = new ArrayList<Action>();
-            if (x > 0 && World._world[y][x - 1] != null) {
+            if (x > 0) {
                 moves.add(new MoveNorth());
             }
-            if (x < World._world[y].length - 1 && World._world[y][x + 1] != null) {
+            if (x < 0) {
                 moves.add(new MoveSouth());
             }
-            if (y > 0 && World._world[y - 1][x] != null) {
+            if (y > 0) {
                 moves.add(new MoveWest());
             }
-            if (y < World._world.length - 1 && World._world[y + 1][x] != null) {
+            if (y < 0) {
                 moves.add(new MoveEast());
             }
             return moves;
