@@ -9,7 +9,8 @@ public class MapTile {
         this.y = y;
     }
 
-        public ArrayList<Action> adjacent_moves(){
+    // Used code seen in class as a reference to get started
+/*        public ArrayList<Action> adjacent_moves(){
         ArrayList<Action> moves = new ArrayList<Action>();
         if (World.tile_exists(x , y +1) != null)
             moves.add(new MoveEast());
@@ -20,6 +21,24 @@ public class MapTile {
         if (World.tile_exists(x +1, y) != null)
             moves.add(new MoveSouth());
         return moves;
+        }*/
+
+        public ArrayList<Action> adjacent_moves() {
+            ArrayList<Action> moves = new ArrayList<Action>();
+
+            if (x > 0 && World._world[y][x - 1] != null) {
+                moves.add(new MoveNorth());
+            }
+            if (x < World._world[y].length - 1 && World._world[y][x + 1] != null) {
+                moves.add(new MoveSouth());
+            }
+            if (y > 0 && World._world[y - 1][x] != null) {
+                moves.add(new MoveWest());
+            }
+            if (y < World._world.length - 1 && World._world[y + 1][x] != null) {
+                moves.add(new MoveEast());
+            }
+            return moves;
         }
 
 }
