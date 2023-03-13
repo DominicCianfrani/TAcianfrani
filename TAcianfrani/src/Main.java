@@ -28,5 +28,8 @@ public class Main {
         System.out.println(spotDog.getName());
         System.out.println(redDragon.getName());
 
+        World world = new World();
+        world.load_tiles();
+
     }
 }
