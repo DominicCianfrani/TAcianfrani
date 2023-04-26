@@ -71,6 +71,14 @@ public class World {
                     mt = new GiantSpiderRoom(x, y, new GiantSpider());
                     mt = checkRoomExists(mt);
                     break;
+                case "OgreRoom":
+                    mt = new OgreRoom(x, y, new Ogre());
+                    mt = checkRoomExists(mt);
+                    break;
+                case "CyclopsRoom":
+                    mt = new CyclopsRoom(x, y, new Ogre());
+                    mt = checkRoomExists(mt);
+                    break;
                 case "TreasureRoom":
                     mt = new TreasureRoom(x, y, new Gold(15));
                     mt = checkRoomExists(mt);
@@ -80,6 +88,10 @@ public class World {
                     break;
                 case "FindArrowRoom":
                     mt = new FindArrowRoom(x, y, new Arrow());
+                    mt = checkRoomExists(mt);
+                    break;
+                case "LeaveCaveRoom":
+                    mt = new LeaveCaveRoom(x, y);
                     mt = checkRoomExists(mt);
                     break;
                 default:
