@@ -5,4 +5,11 @@ public class Gold extends Item{
         super("Gold bar", "Big Gold Bar!",10);
         this.amt = amtInt;
     }
+    public int getAmt() {
+        return amt;
+    }
+
+    public void setAmt(int amt) {
+        this.amt = amt;
+    }
 }
