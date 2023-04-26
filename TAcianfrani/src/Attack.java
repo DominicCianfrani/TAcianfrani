@@ -1,10 +1,10 @@
 public class Attack extends Action {
+    private Enemy enemy;
 
-    public Attack(char hotkey, Enemy enemy, Player player) {
+    public Attack(char hotkey, Enemy enemy) {
         super(Method.Attack, "Attack", hotkey, enemy);
+        this.enemy = enemy;
     }
-
-}
 /*
     public void attack(Enemy enemy){
         Weapon best_weapon = new Weapon("None", "None", 0, 0);
@@ -24,6 +24,6 @@ public class Attack extends Action {
         }else{
             System.out.print(String.format("{0} HP is {1}.",enemy.name, enemy.hp));
         }
-    } //End Code block attack method
 
  */
+    } //End Code block attack method
