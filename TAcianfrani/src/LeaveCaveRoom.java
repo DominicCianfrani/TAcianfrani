@@ -4,7 +4,7 @@ public class LeaveCaveRoom extends MapTile{
         super(x, y); // Sets the x and y position properties in the superclass MapTile
     }
     public String intro_text() {
-        return "You have completed your journey! Congratulations!";
+        return " You have escaped Voyager!\n You called for re-enforcments!\n They came to save you and your crew!\n Congratulations!";
     }
     public void modify_player (Player player){
         player.victory = true;

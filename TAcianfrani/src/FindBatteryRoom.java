@@ -1,8 +1,8 @@
-public class FindArrowRoom extends LootRoom {
+public class FindBatteryRoom extends LootRoom {
     // 6 usages
 
-    public FindArrowRoom(int x, int y, Arrow arrow) {
-        super(x, y, arrow);
+    public FindBatteryRoom(int x, int y, BatteryPack batterypack) {
+        super(x, y, batterypack);
         // TODO Auto-generated constructor stub
     }
 

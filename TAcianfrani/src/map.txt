@@ -1,5 +1,10 @@
- 	 	 	 	LeaveCaveRoom
-			CyclopsRoom	EmptyCavePath
- 	 	 	EmptyCavePath	  
- 	 	 	TreasureRoom	 
-OgreRoom	TreasureRoom	StartingRoom	TreasureRoom	FindDaggerRoom
+LeaveCaveRoom	VidianRoom	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath
+VidianRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath
+EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+EmptyCavePath	FindPhaserRoom	FindPhaserRoom	TreasureRoom	FindPhaserRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath
+TreasureRoom	EmptyCavePath	BridgeTactical	TreasureRoom	BridgeScience	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom
+EmptyCavePath	EmptyCavePath	EmptyCavePath	StartingRoom	EmptyCavePath	EmptyCavePath	EmptyCavePath	EmptyCavePath	TreasureRoom	EmptyCavePath

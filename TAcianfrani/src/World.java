@@ -63,32 +63,33 @@ public class World {
                     mt = new StartingRoom(x, y);
                     mt = checkRoomExists(mt);
                     break;
-                case "FindDaggerRoom":
-                    mt = new FindDaggerRoom(x, y, new Sword());
+                case "FindPhaserRoom":
+                    mt = new FindPhaserRoom(x, y, new Phaser());
                     mt = checkRoomExists(mt);
                     break;
-                case "GiantSpiderRoom":
-                    mt = new GiantSpiderRoom(x, y, new GiantSpider());
-                    mt = checkRoomExists(mt);
-                    break;
-                case "OgreRoom":
-                    mt = new OgreRoom(x, y, new Ogre());
-                    mt = checkRoomExists(mt);
-                    break;
-                case "CyclopsRoom":
-                    mt = new CyclopsRoom(x, y, new Ogre());
+                case "VidianRoom":
+                    mt = new VidianRoom(x, y, new Vidian());
                     mt = checkRoomExists(mt);
                     break;
                 case "TreasureRoom":
                     mt = new TreasureRoom(x, y, new Gold(15));
                     mt = checkRoomExists(mt);
                     break;
+                    //Parts of Voyager
                 case "EmptyCavePath":
                     mt = new EmptyCavePath(x, y);
                     break;
-                case "FindArrowRoom":
-                    mt = new FindArrowRoom(x, y, new Arrow());
-                    mt = checkRoomExists(mt);
+                case "HelmControlRoom":
+                    mt = new HelmControlRoom(x, y);
+                    break;
+                case "BridgeTactical":
+                    mt = new BridgeTactical(x, y);
+                    break;
+                case "BridgeScience":
+                    mt = new BridgeScience(x, y);
+                    break;
+                case "TurboLift":
+                    mt = new TurboLift(x, y);
                     break;
                 case "LeaveCaveRoom":
                     mt = new LeaveCaveRoom(x, y);

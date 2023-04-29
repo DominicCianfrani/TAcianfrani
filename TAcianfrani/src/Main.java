@@ -18,7 +18,7 @@ public class Main {
             System.out.print(room.intro_text());
             while ((player.is_alive()) && (!player.victory)){
                 room = World.tile_exists(player.location_x, player.location_y);
-                System.out.print(room.intro_text());
+
                 room.modify_player(player);
 //			  // Check again since the room could have changed the player's state
                 if ((player.is_alive()) && (!player.victory)){

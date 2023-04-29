@@ -43,8 +43,8 @@ public class Player implements Comparable<Player> {
         super();
         this.name= name;
         inventory.add(new Gold(15));
-        inventory.add(new Pillow());
-        inventory.add(new Sword());
+        inventory.add(new TriCorder());
+        inventory.add(new Phaser());
         this.hp = 140; // Health Points
         this.location_x = World.Starting_Position.x;
         this.location_y = World.Starting_Position.y;

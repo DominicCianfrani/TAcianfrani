@@ -4,6 +4,6 @@ public class EmptyCavePath extends MapTile{
         super(x, y); // Sets the x and y position properties in the superclass MapTile
     }
     public String intro_text() {
-        return "There is nothing here but darkness";
+        return "The hallway is empty here";
     }
 }
